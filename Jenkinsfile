@@ -6,7 +6,7 @@ pipeline {
         TAG = "${BUILD_NUMBER}"
         IMAGE_WITH_TAG = "${IMAGE_NAME}:${TAG}"
         IMAGE_LATEST = "${IMAGE_NAME}:latest"
-        DOCKER_HUB_CREDS = 'dockerhub-credentials-id'
+        DOCKER_HUB_CREDS = 'docker_credentials'
     }
 
     stages {
